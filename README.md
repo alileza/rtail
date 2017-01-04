@@ -11,7 +11,7 @@ rtail root@192.168.100.160 -f /var/log/nginx/access.log
 rtail root@192.168.100.160,root@192.168.100.161,root@192.168.100.162 -f /var/log/nginx/access.log
 ```
 
-# Use Config File
+# [SOON] Use Config File
 ```sh
 rtail -config.file=example.json
 ```
