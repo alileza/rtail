@@ -1,6 +1,11 @@
 # Remote Tail
 Simple go package to tail log remotely.
 
+### Getting Started
+```bash
+go get -u github.com/alileza/rtail
+```
+
 ```bash
 usage: rtail [<servers>] [-F | -f | -r] [-q] [-b # | -c # | -n #] <file>
 
